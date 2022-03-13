@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="SRC/CSS/reset.css">
     <link rel="stylesheet" href="SRC/CSS/global.css">
     <link rel="stylesheet" href="SRC/CSS/cartao.css">
+    <link rel="stylesheet" href="SRC/CSS/listagem.css">
+    <link rel="stylesheet" href="SRC/CSS/responsivo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +29,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
         <div class="pokedex">
             <div class="cartoes-pokedex">
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-grama">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -64,7 +66,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-fogo">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -103,7 +105,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-eletrico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -140,7 +142,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-fantasma">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -177,7 +179,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-agua">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gyrados</h2>
@@ -214,7 +216,7 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-dragao">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -255,23 +257,29 @@ RESPONSIVIDADE= Adaptação para todas as resoluções de tela, celular, pc, tab
 
             <nav class="listagem">
                 <ul>
-                    <li>
+                    <li class="pokemon ativo">
                         <img src="SRC/IMAGES/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
+                        <span>Bulbasaur</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/IMAGES/cabeca-charmander.png" alt="cabeça do charmander">
+                        <span>Charmander</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/IMAGES/cabeca-pikachu.png" alt="cabeça do pikachu">
+                        <span>Pikachu</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/IMAGES/cabeca-gengar.png" alt="cabeça do gengar">
+                        <span>Gengar</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/IMAGES/cabeca-gyarados.png" alt="cabeça do gyrados">
+                        <span>Gyarados</span>
                     </li>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/IMAGES/cabeca-dragonite.png" alt="cabeça do dragonite">
+                        <span>Dragonite</span>
                     </li>
                 </ul>
 
