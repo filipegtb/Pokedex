@@ -1,0 +1,13 @@
+/* box-sizing:border box =  todo padding e toda margem fica contido na altura e na largura do elemento
+O asterisco é usado para aplicar em todos os elementos do html 
+list style none = serve para estilizar,*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,28 @@
+/* CTRL + ; = COMENTÁRIOS NO CSS */
+/* justify-content = alinhar texto imagenes 
+USA ESSES TRES: 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    PARA ALINHAR NO MEIO DA PÁGINA}
+    coloque um ponto para estilizar uma classe do html no css
+    */
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+main {
+    min-height: 100vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex {
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
