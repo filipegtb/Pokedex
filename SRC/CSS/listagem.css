@@ -5,7 +5,7 @@
 .listagem .pokemon {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     /* space-between = espaço entre eles (aqui vai separar o nome da imagem) */
     margin-bottom: 10px;
     background-color: #6B727A;
